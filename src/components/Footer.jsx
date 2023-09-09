@@ -88,10 +88,11 @@ const indexThreeLink = (footerIntemThree.quicklink);
                                     <div className="inner">
                                         <h6 className="subtitle ">{footerIntemFive.subtitle}</h6>
                                         <ul className="social-icon social-default justify-content-start">
-                                            <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                            <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                            <li><Link to="instagram.com"><FiInstagram /></Link></li>
-                                            <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
+                                            {/* <li><Link to="facebook.com"><FiFacebook /></Link></li> */}
+                                            <li><a href='https://www.linkedin.com/in/performanceedge-undefined-981084290/'><FiLinkedin /></a> </li>
+                                            <li><a href="https://twitter.com/performanc10735/lists"><FiTwitter /></a></li>
+                                            {/* <li><Link to="instagram.com"><FiInstagram /></Link></li>
+                                            <li><Link to="linkdin.com"><FiLinkedin /></Link></li> */}
                                         </ul>
                                     </div>
                                 </div>

@@ -22,8 +22,8 @@ const Navbar = ( {btnStyle, HeaderSTyle}) => {
     <header ref={ref} className={`rn-header header-default ${HeaderSTyle} ${headerClasses}`}>
         <div className="container position-relative">
             <div className="row align-items-center row--0">
-                <div className="col-lg-3 col-md-6 col-4">
-                   
+                <div className="col-lg-3  col-md-6 col-4">
+                   <img className='w-25' src={`${process.env.PUBLIC_URL}/images/logo.png`} alt='logo'/>
                 </div>
                 <div className="col-lg-9 col-md-6 col-8 position-static">
                     <div className="header-right">
